@@ -5,4 +5,4 @@
      <%}%>
     </ul>
 
-    //used in listing of all the data in show route.
+    //used in listing of all the data in show routes.
