@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 const initData =require("./data.js");
-const Listing=require("../models/listing.js");//requiring all the dc
+const Listing=require("../models/listing.js");//requiring all the dc.
 const User=require('../models/user.js');
 
 let Mongo_url="mongodb://127.0.0.1:27017/Wanderlust";//storing the url in a variable
