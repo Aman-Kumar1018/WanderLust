@@ -1,2 +1,2 @@
-# Wanderlust
-Transforming Wanderlust Aspirations into Seamless Travel Experiences.
+# WanderLust
+Transforming WanderLust Aspirations into Seamless Travel Experiences.
