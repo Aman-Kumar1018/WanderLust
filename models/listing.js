@@ -49,5 +49,5 @@ listingSchema.post("findOneAndDelete", async(listing)=>{
   }
 });
 
-const Listing = mongoose.model("Listing", listingSchema); // this line is creating a model named as "Listing" based on the specified info in listingSchema
+const Listing = mongoose.model("Listing", listingSchema); // this line is creating a model named as "Listing" based on the specified info in listingSchema.
 module.exports = Listing; // exporting the Listing and "Listing" is the value that will be exported.
