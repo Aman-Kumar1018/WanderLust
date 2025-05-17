@@ -4,7 +4,7 @@ const wrapAsync = require("../utils/wrapAsync.js");
 const Listing = require("../models/listing.js");//requiring the listing.js from models directory
 const { isLoggedIn, isOwner, validateListing } = require("../middleware.js");
 const listingController = require("../controllers/listings.js");
-//file ke form me jo image aa rhi hai usko parse karke ye multer ek upload folder me save karega
+//file ke form me jo image aa rhi hai usko parse karke ye multer ek upload folder me save karega.
 const multer = require('multer');
 const {storage}=require("../cloudConfig.js");
 const upload = multer({storage});
