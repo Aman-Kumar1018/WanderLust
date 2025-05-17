@@ -9,7 +9,7 @@ module.exports.index = async (req, res) => {
   const allListings = await Listing.find({});
   res.render("listings/index.ejs", { allListings });
 };
-//add new listing
+//add new listing.
 module.exports.renderNewForm = (req, res) => {
   //console.log(req.user);
 
